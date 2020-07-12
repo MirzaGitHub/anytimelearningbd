@@ -1,0 +1,397 @@
+body{
+    background: #fff;
+}
+.container{
+    max-width: 1380px;
+    margin: 0;
+    padding: 0;
+    background: rgb(255, 244, 230) url("../asset/bg/bg3.png")no-repeat fixed;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.contain{
+    width: 100%;
+    height: auto;
+    background: #000000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.top-bar{
+    width: 50%;
+}
+.top-bar ul{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.top-bar ul li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+.top-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.top-bar ul li:hover {
+    background: #fff;
+}
+.top-bar ul li:hover a{
+    color: rgb(0, 0, 0);
+}
+.headder{
+    max-width: 1380px;
+    height: 150px;
+    margin-top: 30px;
+}
+.headder img{
+    width: 200px;
+    height: 90px;
+    padding: 10px;
+
+}
+.headder h1{
+    display: inline-block;
+    font-size: 15px;
+    font-family: 'Dancing Script', cursive;
+    color: coral;
+}
+.main-manu{
+    width: 100%;
+    background: #000000;
+    position: sticky;
+    top: 0;
+}
+.main-manu ul{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.main-manu ul li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+.main-manu ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+.main-manu ul li a i{
+    padding: 5px;
+}
+.main-manu ul li:hover{
+    background: #fff;
+}
+.main-manu ul li:hover a{
+    color: rgb(0, 0, 0);
+}
+.feed{
+    margin: 0;
+    padding: 0;
+    height: 400px;
+
+}
+.feed .video{
+    width: 642px;
+    height: 342px;
+    margin: 15px;
+    border: 2px solid #f72828;
+    position: relative;
+    display: block;
+    float: left;
+    border-radius: 10px;
+}
+.feed .video iframe{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    border-radius: 10px;
+}
+.feed .playlist{
+    width: 620px;
+    height: 342px;
+    margin: 15px;
+    border: 2px solid #f72828;
+    position: relative;
+    display: block;
+    float: right;
+    overflow: auto;
+    background: #ffffff;
+    border-radius: 10px;
+}
+.feed .playlist ul{
+    position: absolute;
+    top: 5px;
+    bottom: 0;
+    right: 5px;
+    left: 5px;
+}
+.feed .playlist ul a{
+    text-decoration: none;
+    display: flex;
+    color: #34315d;
+    border-radius: .5em;
+    line-height: 1.2;
+    font-size: .8em;
+    border-bottom: 1px solid #ddd;
+}
+.feed .playlist ul a:hover{
+    text-decoration: none;
+    color: #ffffff;
+    transition: ease-in-out;
+    transition-duration: .05s;
+}
+.feed .playlist ul a li{
+    display: inline-block;
+    padding: 3px;
+}
+.feed .playlist ul a:hover li{
+    background: #000000;
+    transition: ease-in-out;
+    transition-duration: .10s;
+    border-radius: 5px;
+    width: 100%;
+}
+.feed .playlist ul a li img{
+    display: inline-block;
+    width: 25%;
+    border-radius: 10px;
+}
+.feed .playlist ul a:hover li img{
+    mix-blend-mode: luminosity;
+}
+.feed .playlist ul a li p{
+    display: block;
+    float: right;
+    width: 70%;
+    padding: 10px;
+}
+.secoend-section{
+    margin: 0;
+    padding: 0;
+    height: 300px;
+    background: rgb(255, 244, 230) url("../asset/bg/bd2.jpg")no-repeat fixed;
+    background-size: cover;
+    background-position: center;
+}
+.secoend-section .headder-secound{
+    font-family: 'Baloo Da 2', cursive;
+    font-style: italic;
+    font-weight: 800;
+    padding-top: 100px;
+    text-align: center;
+    margin: auto;
+    font-size: 35pt;
+}
+.secoend-section:hover .headder-secound{
+    color: rgb(238, 41, 41);
+}
+.secoend-section .para-secound{
+    text-align: center;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: bold;
+    width: 50%;
+    margin: auto;
+}
+.secoend-section:hover .para-secound{
+    color: #1ba15e;
+}
+.third-section {
+	margin: auto;
+	padding: 0;
+	min-height: 1280px;
+	max-width: 1180px;
+}
+.headder-third{
+    font-family: 'Baloo Da 2', cursive;
+    font-style: italic;
+    font-weight: 800;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 35pt;
+    margin: auto;
+}
+.third-section:hover .headder-third{
+    color: rgb(238, 41, 41);
+}
+.bd{
+    text-decoration: none;
+}
+.post-feed{
+    position: absolute;
+    float: left;
+    padding: 0;
+    margin: auto;
+    overflow: hidden;
+}
+.post-feed a {
+	width: 23%;
+	display: block;
+	float: left;
+	height: 290px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	margin-right: 8px;
+	list-style: none;
+}
+.post-feed a:last-child{
+    margin-right: 0;
+}
+.post-feed a li img{
+    mix-blend-mode: normal;
+    display: block;
+    position: relative;
+    width: 250px;
+    border-radius: 10px;
+    float: left;
+    opacity: 1;
+}
+.post-feed a li p{
+    color: rgb(27, 25, 26);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    width: 250px;
+    height: 100px;
+    text-overflow: ellipsis;
+    padding-top: 15px;
+    display: inline-table;
+}
+.post-feed a:hover li img{
+    mix-blend-mode: luminosity;
+    transition: ease-in-out;
+    transition-duration: .5s;
+    transition-delay: .02s .02s;
+}
+.post-feed a:hover li p{
+    color: rgb(238, 41, 41);
+}
+.contex {
+	margin: 0;
+	padding: 0;
+	height: 550px;
+	background: url("../asset/title1.png")no-repeat fixed;
+	background-size: 240px;
+	background-position: left;
+}
+.contex .forth-section{
+    padding: 0;
+    margin: auto;
+    max-width: 1140px;
+}
+.contex .forth-section .forth-headder{
+    font-family: 'Baloo Da 2', cursive;
+    font-style: italic;
+    font-weight: 800;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 35pt;
+    margin: auto;
+}
+.contex:hover .forth-section .forth-headder{
+    color: rgb(238, 41, 41);
+}
+.forth-section .playlist-link{
+    width: 100%;
+    height: 200px;
+    margin: auto;
+    padding: 0;
+}
+.forth-section .playlist-link a {
+	text-decoration: none;
+	display: block;
+	float: left;
+	max-width: 22%;
+	margin: 0 10px 0 10px;
+	background: rgba(155, 153, 153, 0.336);
+	height: 400px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	position: relative;
+	border-radius: 15px;
+}
+.forth-section .playlist-link a img{
+    width: 250px;
+    display: block;
+    border-radius: 15px;
+}
+.forth-section .playlist-link a .forth-sub-headder{
+    color: rgb(51, 47, 47);
+    text-align: center;
+}
+.forth-section .playlist-link a p {
+	color: rgb(53, 51, 46);
+	text-overflow: clip !important;
+	overflow: hidden;
+	position: absolute;
+	display: table;
+	top: 250px;
+	padding-left: 5px;
+	font-size: 1em;
+}
+.footer{
+    padding: 0;
+    margin: 0;
+    background: #000000;
+    width: 100%;
+    height: 50px;
+    color: aquamarine;
+    text-align: center;
+}
+.footer a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12pt;
+    line-height: 25px;
+}
+.abhead{
+    text-align: center;
+}
+.abpara{
+    text-align: justify;
+    width: 35%;
+    display: block;
+    color: goldenrod;
+    
+}
+.ablink{
+    text-decoration: none;
+    color: #1ba15e;
+}
+form{
+    margin-top: 50px;
+}
+.from-control{
+    width: 600px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+input{
+    height: 45px;
+}
+form .submit{
+    background: #fff;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+form .submit:hover{
+    background-color: #f44336;
+    cursor: pointer;
+}
